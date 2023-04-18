@@ -1,0 +1,36 @@
+body{
+	font-family:sans-serif;
+}
+.content{
+	display:none;
+	
+}
+.content1{
+	display:block;
+	
+}
+.closed .minus,.opened .plus{
+	display:none;
+	
+}
+.closed .plus,.opened .minus{
+	display:block;	
+}
+p{
+	border:1px solid #99b3ff;
+	padding:5px;
+	margin-left:10px;
+}
+h3{
+	width:50%;
+	height:20px;
+	cursor:pointer;
+	background-color:#99b3ff;
+	border:1px solid black;
+	padding:5px;
+	display:flex;
+}
+span{
+	position:absolute;
+	right:50%;
+}
